@@ -1,0 +1,6 @@
+python=3.12
+torchvision=0.22.1 
+gradio=5.49.1
+transformers == 4.57.1
+
+kagglehub

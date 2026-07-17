@@ -1,0 +1,15 @@
+﻿System Setup
+Animal name setup
+To enable image classification, a list of animal species must be defined before running the system. This is done by editing the file “species_name.txt”, located in “AI-Tour/data/animals”.
+Each line in the file represents a single animal species. Therefore, each species name should be written on a new line without extra spaces or special symbols.
+Downloading Required Libraries
+Dependencies must be installed before running the application. The required libraries are in the ‘ requirements.txt”. The system is developed using Python 3.12; therefore, the specified dependency versions should be installed to prevent compatibility issues.
+Torchvision (0.22.1): used for image processing 
+Transformer (4.57.1): used to load and run CLIP and language models
+Gradio(5.49.1): used for user interfaces
+Kagglehub: used for downloading datasets for evaluation
+It is possible to install these libraries using this command:
+pip install torchision==0.22.1 transformers==4.57.1 gradio==5.49.1 kagglehub
+	Running the Application
+The application can be executed either through an IDE or via the terminal by running the app.py file.
+After initially downloading the library, a link would be displayed in the terminal. This link provides access to the web interface of the application. The user can then access and use the application through the provided interface.
