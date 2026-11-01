@@ -11,5 +11,7 @@ Kagglehub: used for downloading datasets for evaluation
 It is possible to install these libraries using this command:
 pip install torchision==0.22.1 transformers==4.57.1 gradio==5.49.1 kagglehub
 	Running the Application
+Alternatively:
+	we can run it using .venv provided by running ".\.venv\Scripts\Activate.ps1"
 The application can be executed either through an IDE or via the terminal by running the app.py file.
 After initially downloading the library, a link would be displayed in the terminal. This link provides access to the web interface of the application. The user can then access and use the application through the provided interface.

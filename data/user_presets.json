@@ -1,0 +1,54 @@
+[
+  {
+    "preset_name": "Preset 1 (DeepSeek,Zoo visitor)",
+    "role": "Zoo visitor",
+    "needs": [
+      "habitat information",
+      "conservation status",
+      "diet details",
+      "ecological role",
+      "fun facts"
+    ],
+    "model": "deepseek-v3"
+  },
+  {
+    "preset_name": "Preset 2 (Gemini,Student)",
+    "role": "Student",
+    "needs": [
+      "scientific name",
+      "conservation status",
+      "cultural significance"
+    ],
+    "model": "gemini-2.5-flash"
+  },
+  {
+    "preset_name": "Preset 3 (Qwen,Student)",
+    "role": "Student",
+    "needs": [
+      "scientific name",
+      "conservation status",
+      "cultural significance"
+    ],
+    "model": "Qwen3-0.6B"
+  },
+  {
+    "preset_name": "Preset 4 (Gemini,Tourist)",
+    "role": "Tourist",
+    "needs": [
+      "scientific name",
+      "conservation status",
+      "cultural significance"
+    ],
+    "model": "gemini-2.5-flash"
+  },
+  {
+    "preset_name": "Presentation",
+    "role": "Child",
+    "needs": [
+      "ecological role",
+      "behavior",
+      "diet details"
+    ],
+    "model": "deepseek-v3"
+  }
+]

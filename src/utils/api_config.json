@@ -1,0 +1,32 @@
+[
+  {
+    "modelName": "Qwen3-0.6B",
+    "apiVersion": "3.0",
+    "basicUrl": "Qwen/Qwen3-0.6B",
+    "apiKey": "local"
+  },
+  {
+    "modelName": "Qwen2.5-0.5B",
+    "apiVersion": "2.5",
+    "basicUrl": "Qwen/Qwen2.5-0.5B-Instruct",
+    "apiKey": "local"
+  },
+  {
+    "modelName": "gpt-4.1-mini",
+    "apiVersion": "2024-12-01-preview",
+    "basicUrl": "https://genai.hkbu.edu.hk/api/v0/rest",
+    "apiKey": "008f7752-b20a-4a3d-b800-2f07b936d32b"
+  },
+  {
+    "modelName": "deepseek-v3",
+    "apiVersion": "2024-05-01-preview",
+    "basicUrl": "https://genai.hkbu.edu.hk/api/v0/rest",
+    "apiKey": "008f7752-b20a-4a3d-b800-2f07b936d32b"
+  },
+  {
+    "modelName": "gemini-2.5-flash",
+    "apiVersion": "",
+    "basicUrl": "https://genai.hkbu.edu.hk/api/v0/rest",
+    "apiKey": "008f7752-b20a-4a3d-b800-2f07b936d32b"
+  }
+]
